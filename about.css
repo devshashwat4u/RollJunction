@@ -1,0 +1,204 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(162, 225, 85);
+}
+
+#icon {
+    height: 30px;
+    width: 20px;
+    padding-bottom: 0px;
+    background-color: rgb(162, 225, 85);
+}
+
+nav {
+    background-color: #494d60;
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1px;
+}
+
+nav a {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+    font-size: 1.1em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%
+}
+
+main div {
+    height: 100%;
+    width: 50%;
+}
+
+div.about {
+    font-family: 'Roboto', sans-serif;
+    background-color: darkslategray;
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+
+.img {
+    background-image: url("cheese.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1.about {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+div.about a {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.line1 {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line2 {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.kathi {
+    width: 210px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.kathi img {
+    width: 200px;
+    height: 200px;
+    /* border: 5px solid rgb(236, 183, 191); */
+    border-radius: 50%;
+}
+
+.spring {
+    width: 210px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.spring img {
+    width: 200px;
+    height: 200px;
+    /* border: 5px solid rgb(236, 183, 191); */
+    border-radius: 50%;
+}
+
+.chicken {
+    width: 210px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.chicken img {
+    width: 200px;
+    height: 200px;
+    /* border: 5px solid rgb(236, 183, 191); */
+    border-radius: 50%;
+}
+
+.egg {
+    width: 210px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.egg img {
+    width: 200px;
+    height: 200px;
+    /* border: 5px solid rgb(236, 183, 191); */
+    border-radius: 50%;
+}
+
+.paneer {
+    width: 210px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.paneer img {
+    width: 200px;
+    height: 200px;
+    /* border: 5px solid rgb(236, 183, 191); */
+    border-radius: 50%;
+}
+
+.cheese {
+    width: 210px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cheese img {
+    width: 200px;
+    height: 200px;
+    /* border: 5px solid rgb(236, 183, 191); */
+    border-radius: 50%;
+}
+
+.about1 {
+    margin-left: 150px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.about1 p a {
+    text-decoration: none;
+    color: goldenrod;
+}

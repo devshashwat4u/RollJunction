@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+    <script src="register.js"></script>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Roll Junction<span id="icon"><img src="spring-rolls (1).png" height="45px" width="40px"></span></h1>
+    </div>
+    <nav>
+        <a href="RollJunction.html">Home</a>
+        <a href="Register.html">Register</a>
+        <a href="Contact.html">Contact Us</a>
+        <a href="About.html">About Us</a>
+        <a href="LogIn.html">Log In</a>
+    </nav>
+    <main>
+        <section class="rightContent"></section>
+        <div class="mainContent">
+            <div class="bg"></div>
+            <div class="form">
+                <form action="RegSuccess.html">
+                    <p>
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" minlength="10" maxlength="20" required>
+                    </p>
+                    <p>
+                        <label for="usid">User ID:</label>
+                        <input type="text" id="usid" name="usid" minlength="8" maxlength="15" required>
+                    </p>
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </p>
+                    <p>
+                        <label for="pass">Password:</label>
+                        <input type="password" id="pass" name="pass" minlength="8" maxlength="15" required>
+                    </p>
+                    <p>
+                        Gender:
+                        <label for="male">M</label>
+                        <input type="radio" id="male" name="gender">
+                        <label for="female">F</label>
+                        <input type="radio" id="female" name="gender">
+                    </p>
+                    <p>
+                        <label for="agree">I Agree to the TOCs</label>
+                        <input type="checkbox" name="agree_tos" id="agree">
+                    </p>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+        </div>
+        <section class="leftContent"></section>
+    </main>
+    <footer>
+        <div class="line1">
+            <div class="kathi">
+                <img alt="" src="kathi.jpg">
+                <h1>Kathi Roll</h1>
+            </div>
+            <div class="spring">
+                <img alt="" src="spring.jpg">
+                <h1>Spring Roll</h1>
+            </div>
+            <div class="chicken">
+                <img alt="" src="chicken.jpg">
+                <h1>Chicken Roll</h1>
+            </div>
+        </div>
+        <div class="line2">
+            <div class="egg">
+                <img alt="" src="egg.jpg">
+                <h1>Egg Roll</h1>
+            </div>
+            <div class="paneer">
+                <img alt="" src="paneer.jpg">
+                <h1>Paneer Roll</h1>
+            </div>
+            <div class="cheese">
+                <img alt="" src="cheese.jpg">
+                <h1>Cheese Roll</h1>
+            </div>
+        </div>
+        <div class="about">
+            <p>D-74, Roll Street, MBD extn, Badarpur,<br>
+                New Delhi-110044<br>
+                Tel : 001-8758876<br>
+                E-mail : RollJunction.Delhi@gmail.com<br>
+                <a href="tel: 001-8758876">Call Us </a>
+                <br>
+                <a href="mailto:shashwattripathi4u@gmail.com">Mail Us</a>
+
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
